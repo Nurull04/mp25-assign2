@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2265AB"
+        android:textSize="18dp"
+        android:text="MENGHITUNG LUAS PERSEGI PANJANG"/>
+
+
+    <EditText
+        android:id="@+id/edPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:textColor="#000000"/>
+    
+    <Button
+        android:id="@+id/btHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:text="HITUNG"
+        android:backgroundTint="#2265AB"/>
+
+    <EditText
+        android:id="@+id/edLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Luas"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F1D022085"
+        android:textSize="12sp"
+        android:textColor="#812265AB"
+        android:gravity="center"
+        android:layout_marginTop="420dp"/>
+
+
+</LinearLayout>
